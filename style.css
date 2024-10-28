@@ -37,6 +37,7 @@ a {
   grid-template-columns: repeat(2, 1fr);
   gap: 35px;
   padding-bottom: 40px;
+  margin-top: 40px;
 }
 
 .listProduct .item {
