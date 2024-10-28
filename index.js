@@ -12,7 +12,7 @@ function addDataToHTML() {
   if (products && Array.isArray(products)) {
     products.forEach((product) => {
       let new_product = document.createElement("a");
-      new_product.href = "/detail.html?id=" + product.id;
+      new_product.href = "detail.html?id=" + product.id;
       new_product.classList.add("item");
 
       new_product.innerHTML = `
