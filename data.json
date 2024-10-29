@@ -41,14 +41,6 @@
   },
   {
     "id": 6,
-    "name": "Trapstar Wildcard",
-    "price": "€105",
-    "invetory": 0,
-    "description": "The Trapstar Wildcard Hoodie is a stylish and edgy streetwear piece, known for its bold design and comfortable fit. Crafted from premium cotton, it features the iconic Trapstar logo prominently on the chest, often accompanied by unique graphic details on the sleeves or back that give it a distinctive urban vibe.",
-    "img": "./images/trapstar wildcard.png"
-  },
-  {
-    "id": 7,
     "name": "Trapstar Shooters",
     "price": "€105",
     "invetory": 0,
@@ -56,7 +48,7 @@
     "img": "./images/trapstar shooters.png"
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Trapstar Tracksuit",
     "price": "€105",
     "invetory": 0,
