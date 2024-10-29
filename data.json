@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Airpods pro 2",
-    "price": "$60",
+    "price": "€60",
     "invetory": 10,
     "description": "Enjoy rich sound with the AirPods Pro 2, altough theese do not feature Active Noise cancellation. With a secure fit and 24-hour battery life, these are perfect for tuning out the world.",
     "img": "./images/airpods pro2.png"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Airpods pro 2 with ANC",
-    "price": "$65",
+    "price": "€65",
     "invetory": 10,
     "description": "Enjoy rich sound with the AirPods Pro 2, featuring Active Noise Cancellation for immersive listening. With a secure fit and 24-hour battery life, these are perfect for tuning out the world.",
     "img": "./images/airpods pro2.png"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Airpods third gen",
-    "price": "$63",
+    "price": "€63",
     "invetory": 5,
     "description": "Enjoy balanced sound with the AirPods 3rd Gen. Featuring a contoured design, seamless connectivity, and long battery life, they’re perfect for daily listening.",
     "img": "./images/airpods 3.png"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Airpods max",
-    "price": "$100",
+    "price": "€100",
     "invetory": 0,
     "description": "Experience high-fidelity sound and comfort with the AirPods Max. With luxurious ear cushions and a sleek design, these headphones deliver a top-tier audio experience at a fraction of the price.",
     "img": "./images/airpods max.webp"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Battery pack",
-    "price": "$40",
+    "price": "€40",
     "invetory": 0,
     "description": "Stay powered up on the go with this Apple Battery Pack replica. It magnetically attaches for easy charging, ensuring your device stays charged throughout the day.",
     "img": "./images/battery pack.png"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Trapstar Wildcard",
-    "price": "$105",
+    "price": "€105",
     "invetory": 0,
     "description": "The Trapstar Wildcard Hoodie is a stylish and edgy streetwear piece, known for its bold design and comfortable fit. Crafted from premium cotton, it features the iconic Trapstar logo prominently on the chest, often accompanied by unique graphic details on the sleeves or back that give it a distinctive urban vibe.",
     "img": "./images/trapstar wildcard.png"
