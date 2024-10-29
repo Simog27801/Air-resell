@@ -340,6 +340,6 @@ form .contact-box {
 
 @media (max-width: 768px) {
   .location {
-    max-width: 70%;
+    max-width: 50%;
   }
 }
