@@ -21,7 +21,7 @@ a {
   font-weight: 700;
   color: #333;
   letter-spacing: 2px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   border-bottom: 2px solid #ddd;
   padding-bottom: 20px;
 }
@@ -46,6 +46,10 @@ a {
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+  display: flex; /* Add this */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-direction: column;
 }
 
 .listProduct .item:hover {
@@ -56,6 +60,7 @@ a {
   color: white;
   letter-spacing: 7px;
   font-size: small;
+  margin-bottom: 20px;
 }
 
 .listProduct .item .name {
@@ -66,6 +71,32 @@ a {
   color: #e74c3c;
   font-size: medium;
   font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.listProduct .buttons button {
+  display: flex; /* Add flex to align items horizontally */
+  align-items: center;
+  gap: 10px;
+  background-color: #ddd;
+  border: none;
+  padding: 15px 20px;
+  font-family: "Poppins", "Merriweather Sans";
+  border-radius: 10%;
+}
+
+.listProduct .buttons img {
+  width: 25px;
+}
+
+.listProduct .buttons span {
+  background-color: #333;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 @media (max-width: 1200px) {
@@ -132,6 +163,7 @@ form {
 
 form .contact-box {
   margin-top: 20px;
+  width: 100%;
 }
 
 .field {
@@ -169,6 +201,12 @@ form .contact-box {
 
 .contact-box label[for="contact-box"]:not(:first-child) {
   align-self: start; /* Align label with top of textarea */
+}
+
+.dont-read {
+  justify-content: flex-end;
+  color: #ddd;
+  font-size: xx-small;
 }
 
 /* detail page */
@@ -302,12 +340,6 @@ form .contact-box {
   }
 }
 
-.dont-read {
-  justify-content: flex-end;
-  color: #ddd;
-  font-size: xx-small;
-}
-
 /* Location Section */
 .location {
   margin-top: 40px;
@@ -338,8 +370,9 @@ form .contact-box {
   font-size: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .location {
     max-width: 70%;
   }
 }
+
