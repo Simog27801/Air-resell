@@ -18,14 +18,32 @@ function addDataToHTML() {
       new_product.innerHTML = `
       <img src = "${product.img}">
       <h2 class = "name">${product.name}</h2>
-      <div class = "prod_price">${product.price}</div>`;
+      <div class = "prod_price">${product.price}</div>
+      <div class = "buttons">
+        <a href="https://www.vinted.it/member/239167393">
+        <button>
+          <span>
+          <img src="images/vinted-logo.png" alt="vinted-logo" />
+          </span>
+          Check Out
+        </button>
+        </a>
+      </div>`;
 
       if (product.invetory == 0) {
         new_product.innerHTML = `
         <img src = "${product.img}">
       <h2 class = "name">${product.name}</h2>
       <div class = "prod_price">${product.price}</div>
-        <h2 class = "instock">!Not in Stock</h2>`;
+        <h2 class = "instock">!Not in Stock</h2>
+        <div class = "buttons">
+          <button>
+                <span>
+                  <img src="images/vinted-logo.png" alt="vinted-logo" />
+                </span>
+                Check Out
+          </button>
+        </div>`;
       }
 
       listProduct.appendChild(new_product);
