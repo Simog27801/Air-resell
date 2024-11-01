@@ -20,7 +20,7 @@ function addDataToHTML() {
       <h2 class = "name">${product.name}</h2>
       <div class = "prod_price">${product.price}</div>
       <div class = "buttons">
-        <a href="https://www.vinted.it/member/239167393">
+        <a href="https://www.vinted.it/member/233493016-gorzasimo">
         <button>
           <span>
           <img src="images/vinted-logo.png" alt="vinted-logo" />
@@ -37,7 +37,7 @@ function addDataToHTML() {
       <div class = "prod_price">${product.price}</div>
         <h2 class = "instock">!Not in Stock</h2>
         <div class = "buttons">
-        <a href="https://www.vinted.it/member/239167393">
+        <a href="https://www.vinted.it/member/233493016-gorzasimo">
           <button>
                 <span>
                   <img src="images/vinted-logo.png" alt="vinted-logo" />
