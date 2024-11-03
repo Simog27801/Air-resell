@@ -33,7 +33,7 @@ function addDataToHTML() {
       if (product.invetory == 0) {
         new_product.innerHTML = `
         <img src = "${product.img}">
-      <h2 class = "name">${product.name}</h2>
+      <h2 class = "name" translate="no">${product.name}</h2>
       <div class = "prod_price">${product.price}</div>
         <h2 class = "instock">!Not in Stock</h2>
         <div class = "buttons">
