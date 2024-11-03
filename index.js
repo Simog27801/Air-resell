@@ -17,9 +17,9 @@ function addDataToHTML() {
 
       new_product.innerHTML = `
       <img src = "${product.img}">
-      <h2 class = "name">${product.name}</h2>
+      <h2 class = "name" translate="no">${product.name}</h2>
       <div class = "prod_price">${product.price}</div>
-      <div class = "buttons">
+      <div class = "buttons" translate="no">
         <a href="https://www.vinted.it/member/233493016-gorzasimo">
         <button>
           <span>
